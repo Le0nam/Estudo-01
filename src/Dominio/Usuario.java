@@ -23,8 +23,6 @@ public class Usuario extends BaseIdentificador{
     }
     @Override
     public String toString() {
-        return "BaseIdentificador [id=" + id + "]" + "Usuario [nome=" + nome + ", email=" + email + "]";
+        return "Usuario [ id=" + id + " nome=" + nome + ", email=" + email + "]";
     }
-    
-    
 }
